@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    width: 300px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
